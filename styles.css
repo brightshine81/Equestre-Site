@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+.board {
+    position: relative;
+    box-sizing: border-box;
+    background: #000000;
+    color:#FFFFFF;
+    max-width: 1200px;
+    margin:auto;
+    padding: 5px 20px 5px 20px;
+}
+
+.board h2 {
+    color:#ffbf80;
+}
+
+.left-align {
+    display: inline;
+    float: left;
+
+}
+
+.right-align {
+    text-align: right;
+    display: inline;
+    float: right;
+}
+
+.subtitle {
+    display: inline-block;
+    color: #b4b4b4;
+    background-color: #4d4d4d;
+}
+
+.subboard {
+    display: block;
+}
